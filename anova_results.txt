@@ -1,0 +1,15 @@
+ANOVA F-statistic and p-value:
+F_onewayResult(statistic=1.209778134369348, pvalue=0.3104292990325691)
+
+Tukey post-hoc:
+  Multiple Comparison of Means - Tukey HSD, FWER=0.05  
+=======================================================
+ group1   group2  meandiff p-adj   lower  upper  reject
+-------------------------------------------------------
+ Billing Hardware   1.2698 0.3718 -0.7783 3.3178  False
+ Billing  Network  -0.0733 0.9997 -2.1605 2.0138  False
+ Billing Software   0.1564 0.9979  -2.109 2.4219  False
+Hardware  Network  -1.3431 0.2197 -3.1561 0.4699  False
+Hardware Software  -1.1133 0.4753  -3.129 0.9024  False
+ Network Software   0.2298 0.9913 -1.8256 2.2851  False
+-------------------------------------------------------
